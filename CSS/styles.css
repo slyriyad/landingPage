@@ -14,9 +14,11 @@
 
 .header-header{
     display: flex ;
+    /* box-sizing: content-box;
+    width: 100%; */
     justify-content: space-between;
     flex-direction: row;
-    margin: 0;
+    padding: 5%;
 }
 
 .header-header ul {
