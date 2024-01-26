@@ -1,0 +1,44 @@
+/* ----------------head--------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+}
+/* ----------------body--------------- */
+#wrapper{
+    background: radial-gradient(circle, rgb(139, 195, 245), #1294b8);
+}
+
+.header-header{
+    display: flex ;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0;
+}
+
+.header-header ul {
+    list-style-type: none; /*: Supprime les puces de la liste.*/
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-header li {
+    display: table-cell;
+}
+
+.header-header a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.logo {
+    color: #fff;
+}
+/* ----------------footer------------- */
