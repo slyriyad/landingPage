@@ -14,11 +14,16 @@
 
 .header-header{
     display: flex ;
-    /* box-sizing: content-box;
-    width: 100%; */
+    box-sizing: content-box;
+    align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    padding: 5%;
+    padding: 2.5% 10% 2.5% 10%;
+}
+
+.logo {
+    color: #fff;
+    font-size: xx-large;
 }
 
 .header-header ul {
@@ -40,7 +45,11 @@
     text-decoration: none;
 }
 
-.logo {
-    color: #fff;
+/* .header-main {
+    display: flex;
+} */
+
+.header-main figure {
+    
 }
 /* ----------------footer------------- */
