@@ -8,11 +8,11 @@
     font-family: "poppins";
 }
 /* ----------------body--------------- */
-#wrapper{
-    background: radial-gradient(circle, rgb(139, 195, 245), #1294b8);
-}
+    
+
 header {
     height: 100vh;
+    background: radial-gradient(circle, rgb(139, 195, 245), #1294b8);
 }
 .header-header{
     display: flex ;
@@ -35,6 +35,8 @@ header {
     display: flex;
 }
 
+
+
 .header-header li {
     display: table-cell;
 }
@@ -46,6 +48,7 @@ header {
     padding: 14px 16px;
     text-decoration: none;
 }
+
 
 .header-main {
     display: flex;
@@ -59,11 +62,18 @@ header {
     display: flex ;
     box-sizing: content-box;
     flex-direction: column;
-    color: #363d41
+    color: #363d41;
+    justify-content: center;
 }
 
-.header-main-text strong {
-    font-size: 55px;
+.header-main-text h2  {
+    font-size: 55px; 
+    margin: 2.5% 0%
+}
+
+.header-main-text p {
+    margin: 2.5% 0%;
+    font-size: 20px;
 }
 
 .header-main-text form {
@@ -71,14 +81,17 @@ header {
     display: flex;
     justify-content: space-between;
     border-radius: 50px;
+    margin: 2.5% 0%;
+    padding: 3px 2px;
 }
 
 .header-main-text input {
-    border-radius: 50px;
-    border: 0;
+    border: none;
+    outline: none;
     background-color: #DDEBF3;
     margin: 0% 5%;
 }
+
 
 .header-main-text button {
     border-radius: 50px;
