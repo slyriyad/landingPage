@@ -13,6 +13,8 @@
 header {
     height: 100vh;
     background: radial-gradient(circle, rgb(139, 195, 245), #1294b8);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
 }
 .header-header{
     display: flex ;
@@ -36,7 +38,6 @@ header {
 }
 
 
-
 .header-header li {
     display: table-cell;
 }
@@ -47,6 +48,12 @@ header {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: 0.4s;
+}
+
+
+.header-header a:hover {
+    color: #ffffff99;
 }
 
 
@@ -102,10 +109,234 @@ header {
     color: #fff;
 }
 
+
+.header-main-text button:hover {
+    opacity: 0.80;
+    transition: all 0.8s;
+}
+
+
 .header-main figure {
     display: flex;
     box-sizing: content-box;
     width: 50%;
     padding: 4%;
+}
+
+
+
+
+
+
+
+
+
+
+.second{
+    box-shadow:inset rgba(0, 0, 0, 0.35) 0px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px
+}
+
+
+.second-text{
+    display: flex ;
+    box-sizing: content-box;
+    flex-direction: column;
+    align-items: center;
+    margin: 6% 5% 1% 5%;
+}
+
+
+.second-text p.title{
+    font-size: xx-large;
+    font-weight: 600;
+    
+}
+
+
+.second-text p.article{
+    color: #949494;
+    font-size: medium;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+.cards {
+    display: flex;
+    box-sizing: content-box;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.card{
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    background: radial-gradient(circle, rgb(139, 195, 245), #1294b8);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 1% 1% 1% 1%;
+    padding: 5% 2% ;
+    height: 280px;
+    width: 400px;
+    transition: 0.5s;
+}
+
+
+.card:hover{
+    translate: 0 -10%;
+   
+}
+
+
+.icon{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+
+.card-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.card-text p{
+    font-size: small;
+    margin: 5px;
+}
+
+
+.card-text h1{
+    font-weight: 550;
+}
+
+
+
+
+
+
+
+.fond-gris{
+    height: 700px;
+    background-color: #D4D3D3;
+    box-sizing: content-box;
+}
+
+
+.fond-gris p.title{
+    font-size: xx-large;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 5%;
+    box-sizing: content-box;
+}
+
+
+.fond-gris p.article{
+    color: #949494;
+    font-size: medium;
+    font-weight: 500;
+    box-sizing: content-box;
+    text-align: center;
+    padding: 1%;
+}
+
+
+
+
+
+
+
+
+
+.equipe{
+    width: 100vw;
+}
+
+
+.equipe-text{
+    display: flex ;
+    box-sizing: content-box;
+    flex-direction: column;
+    align-items: center;
+    margin: 6% 5% 5% 5%;
+}
+
+
+.equipe-text p.title{
+    font-size: xx-large;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.equipe-text p.article{
+    color: #949494;
+    font-size: medium;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+.equipe-team{
+    display: flex ;
+    box-sizing: content-box;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.member{
+    width: 20%;
+}
+
+
+.member-header{
+    margin-bottom: 10%;
+}
+
+
+.equipe p.number{
+    font-size: x-large;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.equipe p.role{
+    font-size: small;
+    text-align: center;
+}
+
+
+.equipe p.name{
+    font-weight: 600;
+}
+
+
+.equipe p.job{
+    font-size: small;
+    text-align: center;
+}
+
+
+.equipe img{
+    width: 50%;
+    border-radius: 100%;
 }
 /* ----------------footer------------- */
