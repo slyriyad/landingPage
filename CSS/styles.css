@@ -55,7 +55,7 @@ header {
     box-sizing: content-box;
     flex-direction: row;
     justify-content: space-between;
-    margin: 10% 15% 10% 15%;
+    margin: 5% 15% 10% 15%;
 }
 
 .header-main-text {
