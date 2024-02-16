@@ -13,7 +13,7 @@
 header {
     height: 100vh;
     background: radial-gradient(circle, rgb(139, 195, 245), #1294b8);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
     
 }
 .header-header{
@@ -45,6 +45,7 @@ header {
 .header-header a {
     display: block;
     color: white;
+    font-size: small;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -61,8 +62,7 @@ header {
     display: flex;
     box-sizing: content-box;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 5% 15% 10% 15%;
+    margin: 2% 15% 10% 15%;
 }
 
 .header-main-text {
@@ -74,13 +74,13 @@ header {
 }
 
 .header-main-text h2  {
-    font-size: 55px; 
+    font-size: 40px; 
     margin: 2.5% 0%
 }
 
 .header-main-text p {
     margin: 2.5% 0%;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .header-main-text form {
@@ -119,7 +119,9 @@ header {
 .header-main figure {
     display: flex;
     box-sizing: content-box;
-    width: 50%;
+    width: 150px;
+    height: 350px;
+    margin-left: 5%;
     padding: 4%;
 }
 
@@ -133,7 +135,6 @@ header {
 
 
 .second{
-    box-shadow:inset rgba(0, 0, 0, 0.35) 0px 5px 5px;
     display: flex;
     flex-direction: column;
     height: 800px;
@@ -263,9 +264,6 @@ header {
 
 
 
-.equipe{
-    width: 100vw;
-}
 
 
 .equipe-text{
@@ -336,7 +334,54 @@ header {
 
 
 .equipe img{
-    width: 50%;
-    border-radius: 100%;
+    display: block;
+    width: 60%;
+    /* border-radius: 100%; */
+    filter: grayscale(100%);
+    width: 100%;
+    transition: 0.5s;
+    
+}
+
+
+.pict{
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 131.75px;
+    height: 131.75px;
+}
+.team-picture{
+    position: relative;
+    
+    
+}
+
+.team-picture:hover img{
+    transform: scale(1.1,1.1);
+    filter: grayscale(0%);
+}
+
+
+.reseau{
+    display: flex;
+    flex-direction: column;
+    top: -150px;
+    position: absolute;
+    
+}
+
+.logo{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    top: 10px;
+    margin: 0.5%;
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    border-radius:  50%;
+    width: 23px;
+    height: 23px;
+    color: black;
 }
 /* ----------------footer------------- */
