@@ -264,7 +264,9 @@ header {
 
 
 
-
+.equipe{
+    /* height: 100vh; */
+}
 
 .equipe-text{
     display: flex ;
@@ -301,6 +303,9 @@ header {
 
 .member{
     width: 20%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -357,17 +362,19 @@ header {
     
 }
 
-.team-picture:hover img{
-    transform: scale(1.1,1.1);
-    filter: grayscale(0%);
+.team-picture:hover .reseau {
+    top: 30px;
+    left: 10px;
 }
 
 
 .reseau{
     display: flex;
     flex-direction: column;
-    top: -150px;
+    top: -20px;
+    left: -20px;
     position: absolute;
+    transition: 0.5s;
     
 }
 
