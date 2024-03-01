@@ -2,47 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../CSS/styles.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <meta name="description" content="Propulsez votre présence en ligne avec Kucra. Nous proposons des solutions sur mesure pour développer votre visibilité sur le web. Contactez-nous pour en savoir plus!">
+    <link href="../CSS/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+    <title>Kucra</title>
 </head>
 <body>
     <div id="wrapper" class="wrapper">
         <header>
-            <section id="haut"class="header-header">
+            <div id="haut" class="header-header">
                 <h1 class="logo"> 
                     Kucra 
                 </h1>
+                <div class="menu-burger">
+                    <!-- Utilisation d'une checkbox -->
+                    <input type="checkbox" id="hamburger">
+                    <!-- Label de la checkbox -->
+                    <label id="hamburger-logo" for="hamburger">☰</label>
+                    <!-- Le reste du menu -->
+                    <div class="burger">
+                        <a href="#">HOME</a>
+                        <a href="#">FEATURES</a>
+                        <a href="#">CLIENT</a>
+                        <a href="#">PRICING</a>
+                        <a href="#">FAQ</a>
+                        <a href="#">ABOUT</a>
+                        <a href="#">BLOG</a>
+                        <a href="#">CONTACT</a>
+                    </div>
+                  </div>
                 <nav>
-                    <ul class="menu">
-                        <li>
-                            <a href="#HOME">HOME</a>
-                        </li>
-                        <li>
-                            <a href="#FEATURES">FEATURES</a>
-                        </li>
-                        <li>
-                            <a href="#CLIENT">CLIENT</a>
-                        </li>
-                        <li>
-                            <a href="#PRICING">PRICING</a>
-                        </li>
-                        <li>
-                            <a href="#FAQ">FAQ</a>
-                        </li>
-                        <li>
-                            <a href="#ABOUT">ABOUT</a>
-                        </li>
-                        <li>
-                            <a href="#BLOG">BLOG</a>
-                        </li>
-                        <li>
-                            <a href="#CONTACT">CONTACT</a>
-                        </li>
-                    </ul>
+          
+                        <ul class="menu">
+                            <li>
+                                <a href="#" title="Informations supplémentaires">HOME</a>
+                            </li>
+                            <li>
+                                <a href="#" title="Informations supplémentaires">FEATURES</a>
+                            </li>
+                            <li>
+                                <a href="#" title="Informations supplémentaires">CLIENT</a>
+                            </li>
+                            <li>
+                                <a href="#" title="Informations supplémentaires">PRICING</a>
+                            </li>
+                            <li>
+                                <a href="#" title="Informations supplémentaires">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="#" title="Informations supplémentaires">ABOUT</a>
+                            </li>
+                            <li>
+                                <a href="#" title="Informations supplémentaires">BLOG</a>
+                            </li>
+                            <li>
+                                <a href="#" title="Informations supplémentaires">CONTACT</a>
+                            </li>
+                        </ul>
                 </nav>
-
+                    
                     <ul class="social-icons">
                         <li>
                             <a href="https://www.facebook.com/?locale=fr_FR" target="_blank">
@@ -60,9 +79,9 @@
                             </a>
                         </li>
                     </ul>
-            </section>
-            <section class="header-main">
-                <section class="header-main-text">
+                </div>
+            <div class="header-main">
+                <div class="header-main-text">
                     <h2>
                         <strong>
                             We are StartUp <br> Creative Kucra<br>Agency
@@ -76,14 +95,14 @@
                         <button type="submit">SUBSCRIBE</button>
                         
                     </form>
-                </section>
+                </div>
                 <figure>
                     <img class="header-picture" src="../IMG/illustration.svg" alt="illustration ordinateur">
                 </figure>
-            </section>
+            </div>
         </header>
         <main>
-            <section class="second">
+            <div class="second">
                 <div class="second-text">
                     <p class="title">
                         Products Features
@@ -133,16 +152,16 @@
                         </div>
                     </div>
                 </div>
-            </section>
-            <section class="fond-gris">
+            </div>
+            <div class="fond-gris">
                 <p class="title">
                     How it's Works ?
                 </p>
                 <p class="article">
                     it is a long etablished that fact a reader will be of a page when<br> established fact looking at its layout.
                 </p>
-            </section>
-            <section class="equipe">
+            </div>
+            <div class="equipe">
                 <div class="equipe-text">
                     <p class="title">
                         We'r dynamic team of talented people of<br> innovative & marketing<br> expert
@@ -163,7 +182,7 @@
                         </div>
                         <figure class="team-picture">
                             <div class="pict">
-                                <img class="picture-anna" src="../IMG/person1.png">
+                                <img class="picture-anna" src="../IMG/person1.webp" alt="photo d'une femme">
                                 <div id="reseau1" class="reseau">
                                     <div class="logo1">
                                         <i class="fa-brands fa-facebook-f"></i>
@@ -197,7 +216,7 @@
                         </div>
                         <figure class="team-picture">
                             <div class="pict">
-                                <img class="picture-William"  src="../IMG/person2.png">
+                                <img class="picture-William"  src="../IMG/person2.webp" alt="photo d'un homme">
                                 <div id="reseau2" class="reseau">
                                     <div class="logo1">
                                         <i class="fa-brands fa-facebook-f"></i>
@@ -231,7 +250,7 @@
                         </div>
                         <figure class="team-picture">
                             <div class="pict">
-                                <img class="picture-Maria"  src="../IMG/person3.png">
+                                <img class="picture-Maria"  src="../IMG/person3.webp" alt="photo d'une femme">
                                 <div id="reseau3" class="reseau">
                                     <div class="logo1">
                                         <i class="fa-brands fa-facebook-f"></i>
@@ -265,7 +284,7 @@
                         </div>
                         <figure class="team-picture">
                             <div class="pict">
-                                <img class="picture-Luke"  src="../IMG/person4.png">
+                                <img class="picture-Luke"  src="../IMG/person4.webp" alt="photo d'un homme">
                                 <div id="reseau4" class="reseau">
                                     <div class="logo1">
                                         <i class="fa-brands fa-facebook-f"></i>
@@ -289,8 +308,8 @@
                         </div>
                     </div>
                 </div>    
-            </section>
-            <section class="parallax">
+            </div>
+            <div class="parallax">
                 <p class="title">
                     Let's get started with Kucra 
                 </p>
@@ -300,8 +319,8 @@
                 <button class="btnPara">
                     Get Started
                 </button>
-            </section>
-            <!-- <section class="client">
+            </div>
+            <div class="client">
                 <p class="client-title">
                     What your client says
                 </p>
@@ -309,14 +328,14 @@
                     They are a good way to get you started if you want to build something similar<br> or use existing apps which will reduce the cost, efforts and time of the developers<br>They are a good way to get you started if you want to
                 </p>
                 <div class="client-logo">
-                    <img src="../IMG/01.png">
-                    <img src="../IMG/02.png">
-                    <img src="../IMG/03.png">
-                    <img src="../IMG/04.png">
-                    <img src="../IMG/05.png">
+                    <img src="../IMG/01.webp" alt="client">
+                    <img src="../IMG/02.webp" alt="client">
+                    <img src="../IMG/03.webp" alt="client">
+                    <img src="../IMG/04.webp" alt="client">
+                    <img src="../IMG/05.webp" alt="client">
                 </div>
-            </section> -->
-            <!-- <section class="creati">
+            </div> 
+            <div class="creati">
                 <div class="creati-text">
                     <p class="creati-title">We are digital creative Landing Page</p>
                     <p class="creati-article">
@@ -342,9 +361,9 @@
                     </div>
                     <button>Learn More</button>
                 </div>
-                <img src="../IMG/creativity.png">
-            </section>
-            <section class="pricing">
+                <img src="../IMG/creativity.webp" alt="dessin creativity">
+            </div>
+            <div class="pricing">
                 <div class="price-text">
                     <p class="price-title">Our Pricing</p>
                     <p class="price-article">
@@ -542,8 +561,8 @@
                         </button>
                     </div>
                 </div>
-            </section>
-            <section class="blog">
+            </div>
+            <div class="blog">
                 <div class="blog-header">
                     <p class="title">
                         Our Blog 
@@ -555,10 +574,10 @@
                 <div class ="blog-main">
                     <div class="blog-card">
                         <div class="blog-card-header">
-                            <img src="../IMG/blog3.png" alt="">
+                            <img src="../IMG/blog3.webp" alt="">
                             <div class="card-icon">
-                                <i class="fa-regular fa-user"><p> &nbspTheresa Sinclair</p></i><br>
-                                <i class="fa-regular fa-clock"><p> &nbsp25th july 2024</p></i>
+                                <i class="fa-regular fa-user"> &nbsp; Theresa Sinclair</i><br>
+                                <i class="fa-regular fa-clock">&nbsp; 25th july 2024</i>
                             </div>
                         </div>
                         <div class="blog-card-text">
@@ -570,10 +589,10 @@
                     </div>
                     <div class="blog-card">
                         <div class="blog-card-header">
-                            <img src="../IMG/blog1.png" alt="">
+                            <img src="../IMG/blog1.webp" alt="">
                             <div class="card-icon">
-                                <i class="fa-regular fa-user"><p> &nbspTheresa Sinclair</p></i><br>
-                                <i class="fa-regular fa-clock"><p> &nbsp25th july 2024</p></i>
+                                <i class="fa-regular fa-user">&nbsp; Theresa Sinclair</i><br>
+                                <i class="fa-regular fa-clock">&nbsp; 25th july 2024</i>
                             </div>
                         </div>
                         <div class="blog-card-text">
@@ -585,10 +604,10 @@
                     </div>
                     <div class="blog-card">
                         <div class="blog-card-header">
-                            <img src="../IMG/blog2.png" alt="">
+                            <img src="../IMG/blog2.webp" alt="">
                             <div class="card-icon">
-                                <i class="fa-regular fa-user"><p> &nbspTheresa Sinclair</p></i><br>
-                                <i class="fa-regular fa-clock"><p> &nbsp25th july 2024</p></i>
+                                <i class="fa-regular fa-user">&nbsp; Theresa Sinclair</i><br>
+                                <i class="fa-regular fa-clock">&nbsp; 25th july 2024</i>
                             </div>
                         </div>
                         <div class="blog-card-text">
@@ -601,7 +620,7 @@
                         </div>
                     </div>
                 </div>
-            </section> -->
+            </div> 
         </main>
         <footer>
             <div class="footer-reso">
@@ -628,10 +647,10 @@
             <div class="date">
                 2022 Kucra - Landing Page Template by Pichforest
             </div>
-        </footer>
+        </footer> 
     </div>
-<a class="btn-fixe" href="#haut">
+<a class="btn-fixe" href="#haut" title="Informations supplémentaires">
     <i class="fa-solid fa-arrow-up"></i>
-<a>       
+</a>       
 </body>
 </html>
